@@ -9,5 +9,12 @@ block content
             .subway-img.m-train
 
     .status-container
-        .train-status L - #{trains.l.status} #{trains.l.text}
-        .train-status M - #{trains.m.status} #{trains.l.text}
+        .train-status L - #{trains.l.status}
+        #{trains.l.text}
+        .train-status M - #{trains.m.status}
+        #{trains.m.text}
+    //script.
+    //  var html = '#{trains.test}'
+    //  var container = document.createElement('div');
+    //  container.innerHTML = html;
+    //  document.getElementById('test').appendChild(container);

@@ -48,6 +48,8 @@ function getTrains() {
     .then(function (result) {
       status.l = _.find(result, {name: 'L'});
       status.m = _.find(result, {name: 'BDFM'});
+      status.all = result;
+      status.test = '<span class="TitleServiceChange" >Service Change</span><span class="DateStyle"> &nbsp;Posted:&nbsp;06/06/2017&nbsp;10:07PM </span><br/><br/> <P>Due to an investigation at <STRONG>Bay Pkwy</STRONG>, northbound [N] trains are running express from <STRONG>Kings Hwy</STRONG> to <STRONG>59 St</STRONG>(Bklyn) . </P> <P>Allow additional travel time.</P> <br/><br/>'
       return status;
     });
 }
