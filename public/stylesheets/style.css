@@ -1,0 +1,37 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.headline {
+  color: gray;
+}
+
+.lorm-container {
+  display: flex;
+  justify-content: center;
+}
+
+.subway-img {
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+}
+
+.m-train {
+  background-image: url('../images/m-train.png');
+
+}
+
+.l-train {
+  background-image: url('../images/l-train.png');
+}
+
+.status-container {
+  color: gray;
+}

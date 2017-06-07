@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    .lorm-container
+        .headline Take the
+        if lorm === 'l'
+            .subway-img.l-train
+        else
+            .subway-img.m-train
+
+    .status-container
+        .train-status L - #{trains.l.status} #{trains.l.text}
+        .train-status M - #{trains.m.status} #{trains.l.text}
